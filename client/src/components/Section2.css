@@ -48,3 +48,11 @@
 .button:hover {
   font-weight: bold;
 }
+
+.image-cont {
+  height: 800px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100%;
+  background-image: url("../Assets/h4.png");
+}

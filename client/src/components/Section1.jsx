@@ -3,9 +3,9 @@ import img2 from "../Assets/h2.2.png";
 import img3 from "../Assets/h2.3.png";
 import img4 from "../Assets/h2.4.png";
 
-import './HIW.css'
+import "./section1.css";
 
-const HIW = () => {
+const section1 = () => {
   return (
     <div className="ml-[15%] w-[70%] my-20">
       <h1 className="con1T text-center">HOW IT WORKS?</h1>
@@ -19,7 +19,9 @@ const HIW = () => {
             everything from location to amenities, ensuring you find the
             property that feels right.
           </p>
-          <a className="learn" href="">Learn More</a>
+          <a className="learn" href="">
+            Learn More
+          </a>
         </div>
       </div>
       <div className="flex my-10">
@@ -29,7 +31,9 @@ const HIW = () => {
             List your property with ease. Fill in detailed forms to highlight
             every feature, attracting the perfect buyer directly.
           </p>
-          <a className="learn" href="">Learn More</a>
+          <a className="learn" href="">
+            Learn More
+          </a>
         </div>
         <img className="img ml-10" src={img2} alt="" />
       </div>
@@ -41,7 +45,9 @@ const HIW = () => {
             Our platform facilitates direct communication between buyer and
             seller, making negotiations transparent and straightforward.
           </p>
-          <a className="learn" href="">Learn More</a>
+          <a className="learn" href="">
+            Learn More
+          </a>
         </div>
       </div>
       <div className="flex my-10">
@@ -51,7 +57,9 @@ const HIW = () => {
             Advance payments made safe. Secure your agreement with confidence,
             and step closer to your dream property.
           </p>
-          <a className="learn" href="">Learn More</a>
+          <a className="learn" href="">
+            Learn More
+          </a>
         </div>
         <img className="img ml-10" src={img4} alt="" />
       </div>
@@ -59,4 +67,4 @@ const HIW = () => {
   );
 };
 
-export default HIW;
+export default section1;

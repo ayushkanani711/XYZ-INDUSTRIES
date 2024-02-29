@@ -1,17 +1,19 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import PONE from "./components/PONE";
-import HIW from "./components/HIW";
-import WCX from "./components/WCX";
+import P1 from "./components/P1";
+import Section1 from "./components/Section1";
+import Section2 from "./components/Section2";
 
 function App() {
-  return <>
-    <Header></Header>
-    <PONE></PONE>
-    <HIW></HIW>
-    <WCX></WCX>
-    <Footer></Footer>
-  </>;
+  return (
+    <>
+      <Header />
+      <P1 />
+      <Section1 />
+      <Section2 />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
