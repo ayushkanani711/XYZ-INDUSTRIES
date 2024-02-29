@@ -19,13 +19,16 @@ const Footer = () => {
       return;
     }
     try {
-      const response = await fetch("http://localhost:8000/email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email }),
-      });
+      const response = await fetch(
+        "https://xyz-industries-server.vercel.app/email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email }),
+        }
+      );
 
       if (response.ok) {
         alert("Email saved successfully");
