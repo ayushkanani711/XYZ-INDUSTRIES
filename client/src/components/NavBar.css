@@ -1,0 +1,14 @@
+.Nav {
+  display: flex;
+  padding: 18px 24px;
+  justify-content: space-between;
+  width: 483px;
+  height: 66px;
+  border-radius: 80px;
+  background: #071a45;
+  color: #c9c6c2;
+}
+
+.Nav button:hover {
+  color: white;
+}

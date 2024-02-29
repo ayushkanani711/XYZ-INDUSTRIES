@@ -1,0 +1,58 @@
+.t1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #071a45;
+}
+
+.t2 {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #2c8fb5;
+}
+
+.t3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #071a45;
+}
+
+.t4 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #071a45;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 16px 16px 24px;
+  gap: 16px;
+  width: 224px;
+  height: 58px;
+  background: #3a7dff;
+  border-radius: 40px;
+  color: white;
+}
+
+.vec {
+  width: 24px;
+  height: 24px;
+  border-radius: 16px;
+}

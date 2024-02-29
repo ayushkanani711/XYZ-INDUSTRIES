@@ -1,8 +1,8 @@
-
+import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <div className="flex">
+    <div className="Nav">
         <button>Home</button>
         <button>About Us</button>
         <button>Property</button>
