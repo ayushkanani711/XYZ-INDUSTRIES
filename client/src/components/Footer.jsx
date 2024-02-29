@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Footer.css"; // Make sure to create this CSS file
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -40,7 +41,7 @@ const Footer = () => {
           <button>Expore</button>
         </div>
 
-        <div className="quick-links">
+        <div className="footer-column">
           <h3>Quick Links</h3>
           <ul>
             <li>About Us</li>
@@ -52,7 +53,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="customer-support">
+        <div className="footer-column">
           <h3>Customer Support</h3>
           <ul>
             <li>Feedback</li>
@@ -61,10 +62,9 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
-          Subscribe Us
-          <br />
-          Subscribe to our weekly newsletter
+        <div className="footer-column">
+          <h3>Subscribe Us</h3>
+          <p>Subscribe to our weekly newsletter</p>
           <br />
           <input
             type="email"
@@ -83,3 +83,36 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// const Footer = () => {
+//   return (
+//     <footer className="footer">
+//       <div className="footer-column">
+//         <h3>Quick Links</h3>
+//         <ul>
+//           <li><a href="/">Home</a></li>
+//           <li><a href="/about">About Us</a></li>
+//           <li><a href="/services">Services</a></li>
+//           {/* Add more quick links as needed */}
+//         </ul>
+//       </div>
+//       <div className="footer-column">
+//         <h3>Customer Support</h3>
+//         <ul>
+//           <li><a href="/contact">Contact Us</a></li>
+//           <li><a href="/faq">FAQs</a></li>
+//           <li><a href="/terms">Terms & Conditions</a></li>
+//           {/* Add more customer support links */}
+//         </ul>
+//       </div>
+//       <div className="footer-column">
+//         <h3>Subscribe Us</h3>
+//         <p>Stay updated with our latest news and offers!</p>
+//         <input type="email" placeholder="Enter your email" />
+//         <button>Subscribe</button>
+//       </div>
+//     </footer>
+//   );
+// }
+
+// export default Footer;
